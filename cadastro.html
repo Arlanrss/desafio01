@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <h1>Cadastro de Alunos</h1>
+
+    <nav>
+        <a href="index.html">Página Inicial</a> |
+        <a href="lista.html">Lista de Alunos</a> |
+        <a href="contato.html">Contato</a>
+    </nav>
+
+    <form>
+        Nome: <input type="text" name="nome"><br>
+        Data de Nascimento: <input type="date" name="nascimento"><br>
+        Email: <input type="email" name="email"><br>
+        Turma: 
+        <select name="turma">
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select><br>
+        Gênero: 
+        <input type="radio" name="genero" value="Masculino"> Masculino
+        <input type="radio" name="genero" value="Feminino"> Feminino
+        <input type="radio" name="genero" value="Outro"> Outro<br>
+        Preferências:
+        <input type="checkbox" name="preferencias" value="Esportes"> Esportes
+        <input type="checkbox" name="preferencias" value="Música"> Música
+        <input type="checkbox" name="preferencias" value="Arte"> Arte<br>
+        Observações: <textarea name="observacoes"></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
